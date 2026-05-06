@@ -1,0 +1,35 @@
+name: Archive to Wayback Machine
+
+# Submits the canonical URLs of this repository to the Internet Archive
+# Wayback Machine on every push to main and on a daily schedule.
+# Independent third-party timestamps are part of the prior-use record.
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '0 6 * * *'  # daily at 06:00 UTC
+  workflow_dispatch:
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Submit canonical URLs to Wayback Machine
+        run: |
+          set -u
+          urls=(
+            "https://github.com/CIRISAI/prior-use"
+            "https://github.com/CIRISAI/prior-use/blob/main/README.md"
+            "https://github.com/CIRISAI/prior-use/blob/main/prior-use.json"
+            "https://raw.githubusercontent.com/CIRISAI/prior-use/main/README.md"
+            "https://raw.githubusercontent.com/CIRISAI/prior-use/main/prior-use.json"
+            "https://github.com/CIRISAI/prior-use/tree/main/docs"
+          )
+          for url in "${urls[@]}"; do
+            echo "Submitting: $url"
+            curl -sS -o /dev/null -w "  status: %{http_code}\n" \
+                 -X GET "https://web.archive.org/save/$url" \
+              || echo "  (submission failed; continuing)"
+            sleep 6   # avoid rate-limiting
+          done

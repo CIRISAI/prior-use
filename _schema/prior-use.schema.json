@@ -1,0 +1,133 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/CIRISAI/prior-use/_schema/prior-use.schema.json",
+  "title": "CIRIS Terminology Prior-Use Record",
+  "description": "Schema for the CIRIS terminology prior-use record. Each term has an earliest known public use with verifiable source, an optional list of subsequent uses, and an honest scope note.",
+  "type": "object",
+  "required": ["name", "version", "publisher", "license", "last_updated", "terms"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "name": { "type": "string" },
+    "version": { "type": "string", "description": "Schema/data version, semver" },
+    "publisher": { "type": "string" },
+    "publisher_url": { "type": "string", "format": "uri" },
+    "license": { "type": "string" },
+    "last_updated": { "type": "string", "format": "date" },
+    "earliest_public_artifact": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "document_issued": { "type": "string", "format": "date" },
+        "document_issued_source": { "type": "string", "format": "uri" },
+        "first_public_repo_commit": { "type": "string" },
+        "first_public_repo_commit_url": { "type": "string", "format": "uri" },
+        "note": { "type": "string" }
+      }
+    },
+    "terms": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/term" }
+    },
+    "canonical_publications": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/publication" }
+    },
+    "canonical_repositories": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/repository" }
+    }
+  },
+  "$defs": {
+    "term": {
+      "type": "object",
+      "required": ["term", "category", "scope_claimed", "scope_note", "doc"],
+      "properties": {
+        "term": { "type": "string", "description": "The canonical CIRIS term as it appears in CIRIS materials" },
+        "expansion": { "type": ["string", "null"], "description": "If the term is an acronym with a single canonical expansion, that expansion. Use expansion_primary + expansion_alternates if multiple expansions exist." },
+        "expansion_primary": { "type": "string", "description": "The primary expansion when the acronym admits multiple canonical expansions" },
+        "expansion_alternates": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Additional canonical expansions"
+        },
+        "short_form": { "type": "string", "description": "Short form / acronym, if the canonical term is the long form" },
+        "category": {
+          "type": "string",
+          "enum": [
+            "document", "principle", "algorithm", "protocol", "role",
+            "system", "concept", "architectural-component", "reference-implementation"
+          ]
+        },
+        "earliest_known_public_use": {
+          "type": ["string", "null"],
+          "format": "date",
+          "description": "ISO date of the earliest verifiable public reference. May be null if not yet verified."
+        },
+        "earliest_source": { "$ref": "#/$defs/source" },
+        "earliest_source_todo": { "type": "string", "description": "Notes on what verification is pending" },
+        "document_stated_issue_date": {
+          "type": "string",
+          "format": "date",
+          "description": "If the term first appears in a document with a stated issuance date earlier than its first verifiable public-record timestamp, that stated date is recorded here. The verifiable public-record date is canonical."
+        },
+        "subsequent_uses": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["date", "source"],
+            "properties": {
+              "date": { "type": "string", "format": "date" },
+              "source": { "type": "string", "format": "uri" },
+              "note": { "type": "string" }
+            }
+          }
+        },
+        "scope_claimed": {
+          "type": "string",
+          "description": "What CIRIS claims priority on (e.g., 'compound and acronym', 'compound only', 'expansion as compound')."
+        },
+        "scope_note": {
+          "type": "string",
+          "description": "Honest scope: which constituent words are general English / wide-prior-use, where CIRIS does and does not claim priority."
+        },
+        "doc": { "type": "string", "description": "Path to the per-term Markdown file" }
+      }
+    },
+    "source": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["git-commit", "github-repo-creation", "zenodo-doi", "wayback", "website", "tagged-release"]
+        },
+        "repo": { "type": "string" },
+        "commit": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "doi": { "type": "string" },
+        "note": { "type": "string" }
+      }
+    },
+    "publication": {
+      "type": "object",
+      "required": ["doi", "title", "publication_date", "url"],
+      "properties": {
+        "doi": { "type": "string" },
+        "title": { "type": "string" },
+        "publication_date": { "type": "string", "format": "date" },
+        "url": { "type": "string", "format": "uri" },
+        "note": { "type": "string" }
+      }
+    },
+    "repository": {
+      "type": "object",
+      "required": ["name", "created", "url"],
+      "properties": {
+        "name": { "type": "string" },
+        "created": { "type": "string", "format": "date" },
+        "first_content_commit": { "type": "string" },
+        "url": { "type": "string", "format": "uri" }
+      }
+    }
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "$schema": "./_schema/prior-use.schema.json",
+  "name": "CIRIS Terminology — Prior-Use Record",
+  "version": "0.1.0",
+  "publisher": "CIRIS AI",
+  "publisher_url": "https://ciris.ai",
+  "license": "CC0-1.0",
+  "last_updated": "2026-05-06",
+  "earliest_public_artifact": {
+    "name": "CIRIS Covenant",
+    "document_issued": "2025-04-16",
+    "document_issued_source": "https://github.com/CIRISAI/CIRIS-Covenant.github.io/blob/main/public/ciris_covenant.txt",
+    "first_public_repo_commit": "2025-04-21T08:52:08+02:00",
+    "first_public_repo_commit_url": "https://github.com/CIRISAI/CIRIS-Covenant.github.io/commit/5ac7def",
+    "note": "The Covenant document text states an issuance date of 2025-04-16; the earliest verifiable public-record timestamp is the first content commit on 2025-04-21."
+  },
+  "terms": [
+    {
+      "term": "CIRIS Covenant",
+      "category": "document",
+      "earliest_known_public_use": "2025-04-21",
+      "document_stated_issue_date": "2025-04-16",
+      "earliest_source": {
+        "type": "git-commit",
+        "repo": "CIRISAI/CIRIS-Covenant.github.io",
+        "commit": "5ac7def",
+        "url": "https://github.com/CIRISAI/CIRIS-Covenant.github.io/commit/5ac7def"
+      },
+      "scope_claimed": "compound 'CIRIS Covenant' as the title of the named document",
+      "scope_note": "'Covenant' is a general English word. CIRIS holds priority only on 'CIRIS Covenant' as the title of the named document.",
+      "doc": "docs/covenant.md"
+    },
+    {
+      "term": "CIRIS Accord",
+      "category": "document",
+      "earliest_known_public_use": "2025-04-21",
+      "earliest_source": {
+        "type": "git-commit",
+        "repo": "CIRISAI/CIRISAgent",
+        "commit": "9ff886a3f",
+        "url": "https://github.com/CIRISAI/CIRISAgent/commit/9ff886a3f",
+        "note": "Initial commit; Accord text included as sister document to the Covenant"
+      },
+      "subsequent_uses": [
+        {
+          "date": "2025-04-28",
+          "source": "https://github.com/CIRISAI/legal",
+          "note": "Dedicated legal repository created"
+        },
+        {
+          "date": "2025-09-24",
+          "source": "https://doi.org/10.5281/zenodo.17195221",
+          "note": "First Zenodo deposit referencing the Accord"
+        }
+      ],
+      "scope_claimed": "compound 'CIRIS Accord' as the title of the named document",
+      "scope_note": "'Accord' is a general English word. CIRIS holds priority only on 'CIRIS Accord' as a document title.",
+      "doc": "docs/accord.md"
+    },
+    {
+      "term": "PDMA",
+      "expansion": "Principled Decision-Making Algorithm",
+      "category": "algorithm",
+      "earliest_known_public_use": "2025-04-21",
+      "earliest_source": {
+        "type": "git-commit",
+        "repo": "CIRISAI/CIRIS-Covenant.github.io",
+        "commit": "5ac7def",
+        "url": "https://github.com/CIRISAI/CIRIS-Covenant.github.io/commit/5ac7def"
+      },
+      "subsequent_uses": [
+        {
+          "date": "2025-04-21",
+          "source": "https://github.com/CIRISAI/CIRISAgent/commit/9ff886a3f",
+          "note": "Same day, in CIRISAgent initial commit"
+        }
+      ],
+      "scope_claimed": "compound and acronym",
+      "scope_note": "PDMA as compound and acronym. The constituent phrase 'principled decision-making' is general English.",
+      "doc": "docs/pdma.md"
+    },
+    {
+      "term": "Wisdom-Based Deferral",
+      "short_form": "WBD",
+      "category": "protocol",
+      "earliest_known_public_use": "2025-04-21",
+      "earliest_source": {
+        "type": "git-commit",
+        "repo": "CIRISAI/CIRIS-Covenant.github.io",
+        "commit": "5ac7def",
+        "url": "https://github.com/CIRISAI/CIRIS-Covenant.github.io/commit/5ac7def"
+      },
+      "subsequent_uses": [
+        {
+          "date": "2025-04-21",
+          "source": "https://github.com/CIRISAI/CIRISAgent/commit/9ff886a3f",
+          "note": "Same day, in CIRISAgent initial commit"
+        }
+      ],
+      "scope_claimed": "compound and acronym",
+      "scope_note": "Wisdom-Based Deferral / WBD as a named CIRIS protocol. The phrases 'wisdom' and 'deferral' are general English.",
+      "doc": "docs/wbd.md"
+    },
+    {
+      "term": "Meta-Goal M-1 (Adaptive Coherence)",
+      "short_form": "M-1",
+      "category": "principle",
+      "earliest_known_public_use": "2025-04-21",
+      "earliest_source": {
+        "type": "git-commit",
+        "repo": "CIRISAI/CIRIS-Covenant.github.io",
+        "commit": "5ac7def",
+        "url": "https://github.com/CIRISAI/CIRIS-Covenant.github.io/commit/5ac7def"
+      },
+      "scope_claimed": "compound 'Meta-Goal M-1' and 'Adaptive Coherence' as the named CIRIS meta-goal",
+      "scope_note": "'Adaptive coherence' is a phrase that may appear independently in adjacent literatures. CIRIS holds priority on the named meta-goal usage and the 'M-1' identifier.",
+      "doc": "docs/m1-adaptive-coherence.md"
+    },
+    {
+      "term": "Wise Authority",
+      "short_form": "WA",
+      "category": "role",
+      "earliest_known_public_use": "2025-04-21",
+      "earliest_source": {
+        "type": "git-commit",
+        "repo": "CIRISAI/CIRIS-Covenant.github.io",
+        "commit": "5ac7def",
+        "url": "https://github.com/CIRISAI/CIRIS-Covenant.github.io/commit/5ac7def"
+      },
+      "scope_claimed": "compound 'Wise Authority' / 'WA' as the named CIRIS oversight role",
+      "scope_note": "The phrase 'wise authority' is general English. CIRIS holds priority only on its use as a named role within the framework.",
+      "doc": "docs/wise-authority.md"
+    },
+    {
+      "term": "Stewardship Tier",
+      "category": "system",
+      "earliest_known_public_use": "2025-04-21",
+      "earliest_source": {
+        "type": "git-commit",
+        "repo": "CIRISAI/CIRIS-Covenant.github.io",
+        "commit": "5ac7def",
+        "url": "https://github.com/CIRISAI/CIRIS-Covenant.github.io/commit/5ac7def"
+      },
+      "scope_claimed": "compound 'Stewardship Tier' / 'Stewardship Tier System' (ST)",
+      "scope_note": "'Stewardship' is a general English word. CIRIS holds priority on the compound 'Stewardship Tier' as the named CIRIS system for quantifying creation responsibility.",
+      "doc": "docs/stewardship-tier.md"
+    },
+    {
+      "term": "Conscience",
+      "category": "architectural-component",
+      "earliest_known_public_use": "2025-04-27",
+      "earliest_source": {
+        "type": "git-commit",
+        "repo": "CIRISAI/CIRISAgent",
+        "commit": "4c01cc6b5",
+        "url": "https://github.com/CIRISAI/CIRISAgent/commit/4c01cc6b5"
+      },
+      "scope_claimed": "the technical use of 'conscience' as a named runtime evaluation faculty in the CIRIS architecture",
+      "scope_note": "'Conscience' is a common English word with very wide prior use. CIRIS does not and cannot claim priority on the word itself; the record documents only its technical use as a named architectural component within CIRIS.",
+      "doc": "docs/conscience.md"
+    },
+    {
+      "term": "H3ERE",
+      "expansion_primary": "Hyper3 Engine for Recursive Ethics",
+      "expansion_alternates": [
+        "Hyper-Cubed Ethical Recursive Engine",
+        "Hyper-Cubed Ethical Recursion Engine"
+      ],
+      "category": "architectural-component",
+      "earliest_known_public_use": "2025-05-06",
+      "earliest_source": {
+        "type": "git-commit",
+        "repo": "CIRISAI/CIRIS-Covenant.github.io",
+        "commit": "4f4715e",
+        "url": "https://github.com/CIRISAI/CIRIS-Covenant.github.io/commit/4f4715e"
+      },
+      "subsequent_uses": [
+        {
+          "date": "2025-09-06",
+          "source": "https://github.com/CIRISAI/CIRISAgent/commit/4e81af08f",
+          "note": "Implementation in CIRISAgent"
+        }
+      ],
+      "scope_claimed": "acronym and its CIRIS-canonical expansions",
+      "scope_note": "H3ERE is a CIRIS-original acronym with no observed prior use. The acronym admits multiple equivalent expansions in CIRIS materials; the '3' denotes hypercube / 'hyper-cubed' structure.",
+      "doc": "docs/h3ere.md"
+    },
+    {
+      "term": "Coherence Ratchet",
+      "category": "concept",
+      "earliest_known_public_use": "2025-10-31",
+      "earliest_source": {
+        "type": "git-commit",
+        "repo": "CIRISAI/CIRISAgent",
+        "commit": "5e90974fb",
+        "url": "https://github.com/CIRISAI/CIRISAgent/commit/5e90974fb"
+      },
+      "subsequent_uses": [
+        {
+          "date": "2026-01-03",
+          "source": "https://github.com/CIRISAI/RATCHET",
+          "note": "Standalone RATCHET reference-architecture repository created"
+        },
+        {
+          "date": "2026-01-11",
+          "source": "https://doi.org/10.5281/zenodo.18217688",
+          "note": "Coherence Collapse Analysis — formal mathematical treatment of the Coherence Ratchet"
+        },
+        {
+          "date": "2026-02-12",
+          "source": "https://web.archive.org/web/20260212102313/https://ciris.ai/coherence-ratchet/",
+          "note": "Earliest Wayback snapshot of the canonical /coherence-ratchet page"
+        }
+      ],
+      "scope_claimed": "compound 'Coherence Ratchet' as the named CIRIS mechanism",
+      "scope_note": "The bare word 'ratchet' is general English with very wide prior use across mechanics, biology, economics, and computer science. CIRIS holds priority only on the compound 'Coherence Ratchet' as a named mechanism within the framework.",
+      "doc": "docs/coherence-ratchet.md"
+    },
+    {
+      "term": "RATCHET",
+      "expansion": "Reference Architecture for Testing Coherence and Honesty in Emergent Traces",
+      "category": "reference-implementation",
+      "earliest_known_public_use": "2026-01-03",
+      "earliest_source": {
+        "type": "github-repo-creation",
+        "repo": "CIRISAI/RATCHET",
+        "url": "https://github.com/CIRISAI/RATCHET"
+      },
+      "scope_claimed": "the expansion as compound and the CIRIS-specific acronym usage",
+      "scope_note": "The bare word 'ratchet' is general English. CIRIS RATCHET is a backronym for a specific reference architecture; CIRIS holds priority on this expansion and on its acronymic use within the CIRIS framework.",
+      "doc": "docs/ratchet.md"
+    },
+    {
+      "term": "CIRIS Federation",
+      "category": "system",
+      "earliest_known_public_use": null,
+      "earliest_source_todo": "Verify earliest commit/document referencing 'federation' in a CIRIS-specific architectural sense across CIRISAgent, CIRISNode, CIRISRegistry; cross-check with Wayback ciris.ai/federation.",
+      "scope_claimed": "compound 'CIRIS Federation'",
+      "scope_note": "'Federation' is a common English and computer-science word. CIRIS holds priority only on 'CIRIS Federation' as the named architecture.",
+      "doc": "docs/federation.md"
+    },
+    {
+      "term": "Alignment Manifold",
+      "category": "concept",
+      "earliest_known_public_use": null,
+      "earliest_source_todo": "Verify earliest commit/document introducing the 'Alignment Manifold' compound. Likely in CIRISAgent docs or Coherence Collapse Analysis paper.",
+      "scope_claimed": "compound 'Alignment Manifold'",
+      "scope_note": "'Manifold' is a general mathematical term with very wide prior use. CIRIS holds priority only on 'Alignment Manifold' as the named geometric construction within CIRIS.",
+      "doc": "docs/alignment-manifold.md"
+    }
+  ],
+  "canonical_publications": [
+    {
+      "doi": "10.5281/zenodo.17195221",
+      "title": "CIRISAgent open source ethical AI framework for accountable autonomy",
+      "publication_date": "2025-09-24",
+      "url": "https://doi.org/10.5281/zenodo.17195221"
+    },
+    {
+      "doi": "10.5281/zenodo.18137161",
+      "title": "CIRISAgent open source ethical AI framework for accountable autonomy",
+      "publication_date": "2026-01-02",
+      "url": "https://doi.org/10.5281/zenodo.18137161",
+      "note": "Republication / updated version"
+    },
+    {
+      "doi": "10.5281/zenodo.18217688",
+      "title": "Coherence Collapse Analysis: A Universal Failure Mode in Complex Coordinating Systems",
+      "publication_date": "2026-01-11",
+      "url": "https://doi.org/10.5281/zenodo.18217688"
+    },
+    {
+      "doi": "10.5281/zenodo.19839280",
+      "title": "Constrained Reasoning Chains: An Empirical Telemetry Study of LLM Alignment",
+      "publication_date": "2026-04-28",
+      "url": "https://doi.org/10.5281/zenodo.19839280"
+    }
+  ],
+  "canonical_repositories": [
+    { "name": "CIRIS-Covenant.github.io", "created": "2025-04-21", "first_content_commit": "2025-04-21T08:52:08+02:00", "url": "https://github.com/CIRISAI/CIRIS-Covenant.github.io" },
+    { "name": "CIRISAgent", "created": "2025-04-20", "first_content_commit": "2025-04-22T06:07:07Z", "url": "https://github.com/CIRISAI/CIRISAgent" },
+    { "name": "legal", "created": "2025-04-28", "url": "https://github.com/CIRISAI/legal" },
+    { "name": "CIRISNode", "created": "2025-04-30", "url": "https://github.com/CIRISAI/CIRISNode" },
+    { "name": "ciris-website", "created": "2025-06-02", "url": "https://github.com/CIRISAI/ciris-website" },
+    { "name": "CIRISLens", "created": "2025-08-17", "url": "https://github.com/CIRISAI/CIRISLens" },
+    { "name": "RATCHET", "created": "2026-01-03", "url": "https://github.com/CIRISAI/RATCHET" },
+    { "name": "CIRISRegistry", "created": "2026-01-26", "url": "https://github.com/CIRISAI/CIRISRegistry" },
+    { "name": "CIRISVerify", "created": "2026-01-27", "url": "https://github.com/CIRISAI/CIRISVerify" },
+    { "name": "CIRISPersist", "created": "2026-05-01", "url": "https://github.com/CIRISAI/CIRISPersist" }
+  ]
+}

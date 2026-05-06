@@ -1,0 +1,113 @@
+<!--
+{
+  "@context": "https://schema.org",
+  "@type": ["Dataset", "DefinedTermSet"],
+  "name": "CIRIS Terminology — Prior-Use Record",
+  "description": "A reference record of canonical terms used in the CIRIS framework, with first-known-public-use timestamps drawn from version control, peer-reviewed papers, and the public web. Maintained for citation, academic reference, and historical transparency.",
+  "url": "https://github.com/CIRISAI/prior-use",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CIRIS AI",
+    "url": "https://ciris.ai"
+  },
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "keywords": [
+    "CIRIS", "CIRIS Covenant", "CIRIS Accord", "Coherence Ratchet",
+    "Wisdom-Based Deferral", "PDMA", "H3ERE", "Wise Authority",
+    "Stewardship Tier", "Adaptive Coherence", "alignment", "ethics", "AI safety"
+  ],
+  "datePublished": "2026-05-06",
+  "isAccessibleForFree": true,
+  "creativeWorkStatus": "Published"
+}
+-->
+
+# CIRIS Terminology — Prior-Use Record
+
+A reference record of canonical terms used in the [CIRIS](https://ciris.ai) framework, with first-known-public-use timestamps drawn from version control, peer-reviewed papers, and the public web.
+
+This repository exists to support citation, academic reference, and historical transparency for anyone studying, citing, or building on the CIRIS framework. It is maintained as part of routine open-source housekeeping.
+
+## What this is
+
+For each documented term, this record provides:
+
+- the canonical CIRIS usage (compound or compound-of-art),
+- the earliest publicly available reference (with permalink, DOI, or commit hash where available),
+- a list of subsequent significant uses in the public record,
+- a short canonical definition.
+
+Per-term files live under [`docs/`](docs/). Structured data lives in [`prior-use.json`](prior-use.json), with a JSON Schema in [`_schema/`](_schema/).
+
+## Earliest CIRIS public artifact
+
+The **CIRIS Covenant** (Version 1.0-β) is the framework's earliest public artifact. The document text states an issuance date of **2025-04-16**. The earliest verifiable public-record timestamp is the first content commit on **2025-04-21** in [`CIRISAI/CIRIS-Covenant.github.io`](https://github.com/CIRISAI/CIRIS-Covenant.github.io). Both dates are recorded; the verifiable public-record date is what citations should use.
+
+The CIRIS Covenant is the predecessor document; the **CIRIS Accord** is a sister document, also dated 2025-04-21, in [`CIRISAI/CIRISAgent`](https://github.com/CIRISAI/CIRISAgent).
+
+## Documented terms
+
+| Term | First known public use | Source |
+|---|---|---|
+| [CIRIS Covenant](docs/covenant.md) | 2025-04-21 (document-issued: 2025-04-16) | [`CIRIS-Covenant.github.io@5ac7def`](https://github.com/CIRISAI/CIRIS-Covenant.github.io/commit/5ac7def) |
+| [CIRIS Accord](docs/accord.md) | 2025-04-21 | [`CIRISAgent@9ff886a3f`](https://github.com/CIRISAI/CIRISAgent/commit/9ff886a3f) |
+| [PDMA — Principled Decision-Making Algorithm](docs/pdma.md) | 2025-04-21 | [`CIRIS-Covenant.github.io@5ac7def`](https://github.com/CIRISAI/CIRIS-Covenant.github.io/commit/5ac7def) |
+| [Wisdom-Based Deferral (WBD)](docs/wbd.md) | 2025-04-21 | [`CIRIS-Covenant.github.io@5ac7def`](https://github.com/CIRISAI/CIRIS-Covenant.github.io/commit/5ac7def) |
+| [Meta-Goal M-1 / Adaptive Coherence](docs/m1-adaptive-coherence.md) | 2025-04-21 | [`CIRIS-Covenant.github.io@5ac7def`](https://github.com/CIRISAI/CIRIS-Covenant.github.io/commit/5ac7def) |
+| [Wise Authority (WA)](docs/wise-authority.md) | 2025-04-21 | [`CIRIS-Covenant.github.io@5ac7def`](https://github.com/CIRISAI/CIRIS-Covenant.github.io/commit/5ac7def) |
+| [Stewardship Tier](docs/stewardship-tier.md) | 2025-04-21 | [`CIRIS-Covenant.github.io@5ac7def`](https://github.com/CIRISAI/CIRIS-Covenant.github.io/commit/5ac7def) |
+| [Conscience (faculty)](docs/conscience.md) | 2025-04-27 | [`CIRISAgent@4c01cc6b5`](https://github.com/CIRISAI/CIRISAgent/commit/4c01cc6b5) |
+| [H3ERE](docs/h3ere.md) (Hyper3 Engine for Recursive Ethics / Hyper-Cubed Ethical Recursive Engine) | 2025-05-06 | [`CIRIS-Covenant.github.io@4f4715e`](https://github.com/CIRISAI/CIRIS-Covenant.github.io/commit/4f4715e) |
+| [Coherence Ratchet](docs/coherence-ratchet.md) | 2025-10-31 | [`CIRISAgent@5e90974fb`](https://github.com/CIRISAI/CIRISAgent/commit/5e90974fb) |
+| [RATCHET (reference architecture)](docs/ratchet.md) | 2026-01-03 | [`CIRISAI/RATCHET` repo creation](https://github.com/CIRISAI/RATCHET) |
+| [CIRIS Federation](docs/federation.md) | (verifying) | (see file) |
+| [Alignment Manifold](docs/alignment-manifold.md) | (verifying) | (see file) |
+
+## Citation
+
+The canonical references are:
+
+- **Software (initial)**: CIRIS AI. *CIRISAgent: open source ethical AI framework for accountable autonomy*. Zenodo (2025-09-24). DOI: [10.5281/zenodo.17195221](https://doi.org/10.5281/zenodo.17195221).
+- **Software (updated)**: DOI: [10.5281/zenodo.18137161](https://doi.org/10.5281/zenodo.18137161) (2026-01-02).
+- **Coherence Collapse Analysis**: *Coherence Collapse Analysis: A Universal Failure Mode in Complex Coordinating Systems*. Zenodo (2026-01-11). DOI: [10.5281/zenodo.18217688](https://doi.org/10.5281/zenodo.18217688).
+- **Constrained Reasoning Chains**: *Constrained Reasoning Chains: An Empirical Telemetry Study of LLM Alignment*. Zenodo (2026-04-28). DOI: [10.5281/zenodo.19839280](https://doi.org/10.5281/zenodo.19839280).
+- **Covenant text**: [`ciris_covenant.txt`](https://github.com/CIRISAI/CIRIS-Covenant.github.io/blob/main/public/ciris_covenant.txt).
+- **Accord text**: [`ciris_accord.txt`](https://ciris.ai/ciris_accord.txt) on the canonical site.
+
+For per-term provenance, see the term's file under [`docs/`](docs/).
+
+## Methodology
+
+For each term, we document:
+
+1. **Earliest known public use** — the earliest verifiable public reference we have located. Sources prioritized in this order: peer-reviewed publication / Zenodo DOI; tagged release; git commit on a public repo; archived web page (Internet Archive Wayback Machine).
+2. **Subsequent uses** — significant later references in the public record, e.g., subsequent papers, public-site pages, downstream documentation.
+3. **Honest scope** — where CIRIS uses a compound term (e.g., *Coherence Ratchet*, *CIRIS Accord*, *Alignment Manifold*) the record claims priority on the compound, not on the constituent words taken alone. Common words with wide prior use are noted as such in each term's `scope_note`.
+
+If you find an earlier verifiable reference than what is recorded here, please open an issue or pull request — we keep the record honest by correcting it.
+
+## Structure
+
+```
+prior-use/
+├── README.md                  # this file
+├── prior-use.json             # structured per-term data
+├── _schema/
+│   └── prior-use.schema.json  # JSON Schema for prior-use.json
+├── docs/                      # per-term Markdown files
+└── evidence/                  # archival captures, when collected
+```
+
+## License
+
+This record (the data and the prose around it) is dedicated to the public domain under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Cite freely.
+
+The CIRIS framework software it documents is licensed separately; see the per-repository LICENSE files in the [CIRISAI organization](https://github.com/CIRISAI).
+
+## Contributing
+
+Corrections and additions are welcome. Please:
+
+1. For an existing term: open a pull request to the relevant `docs/<term>.md` and update `prior-use.json` accordingly.
+2. For a new term: add a new file under `docs/`, add the entry to `prior-use.json`, and link it from the table above.
+3. Provide a verifiable source (DOI, commit hash, or Wayback URL) for any earliest-use claim.
