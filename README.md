@@ -43,14 +43,17 @@ Per-term files live under [`docs/`](docs/). Structured data lives in [`prior-use
 
 The **CIRIS Covenant** (Version 1.0-β) is the framework's earliest public artifact. The document text states an issuance date of **2025-04-16**. The earliest verifiable public-record timestamp is the first content commit on **2025-04-21** in [`CIRISAI/CIRIS-Covenant.github.io`](https://github.com/CIRISAI/CIRIS-Covenant.github.io). Both dates are recorded; the verifiable public-record date is what citations should use.
 
-The CIRIS Covenant is the predecessor document; the **CIRIS Accord** is a sister document, also dated 2025-04-21, in [`CIRISAI/CIRISAgent`](https://github.com/CIRISAI/CIRISAgent).
+On **2026-02-18** the document was renamed from *CIRIS Covenant* to **CIRIS Accord** in coordinated commits across [`ciris-website@b925457`](https://github.com/CIRISAI/ciris-website/commit/b925457) and [`CIRISAgent@daad5f08c`](https://github.com/CIRISAI/CIRISAgent/commit/daad5f08c). Document content lineage is continuous through the rename — the same principles, books, annexes, and procedures carry forward unchanged in substance. Two priority axes are recorded for the document:
+
+- **Document-content lineage**: from 2025-04-21 (as Covenant).
+- **Named compound *CIRIS Accord***: from 2026-02-18.
 
 ## Documented terms
 
 | Term | First known public use | Source |
 |---|---|---|
-| [CIRIS Covenant](docs/covenant.md) | 2025-04-21 (document-issued: 2025-04-16) | [`CIRIS-Covenant.github.io@5ac7def`](https://github.com/CIRISAI/CIRIS-Covenant.github.io/commit/5ac7def) |
-| [CIRIS Accord](docs/accord.md) | 2025-04-21 | [`CIRISAgent@9ff886a3f`](https://github.com/CIRISAI/CIRISAgent/commit/9ff886a3f) |
+| [CIRIS Covenant](docs/covenant.md) (renamed to *Accord* 2026-02-18) | 2025-04-21 (document-issued: 2025-04-16) | [`CIRIS-Covenant.github.io@5ac7def`](https://github.com/CIRISAI/CIRIS-Covenant.github.io/commit/5ac7def) |
+| [CIRIS Accord](docs/accord.md) | content lineage from 2025-04-21; named compound from 2026-02-18 | [`ciris-website@b925457`](https://github.com/CIRISAI/ciris-website/commit/b925457) |
 | [PDMA — Principled Decision-Making Algorithm](docs/pdma.md) | 2025-04-21 | [`CIRIS-Covenant.github.io@5ac7def`](https://github.com/CIRISAI/CIRIS-Covenant.github.io/commit/5ac7def) |
 | [Wisdom-Based Deferral (WBD)](docs/wbd.md) | 2025-04-21 | [`CIRIS-Covenant.github.io@5ac7def`](https://github.com/CIRISAI/CIRIS-Covenant.github.io/commit/5ac7def) |
 | [Meta-Goal M-1 / Adaptive Coherence](docs/m1-adaptive-coherence.md) | 2025-04-21 | [`CIRIS-Covenant.github.io@5ac7def`](https://github.com/CIRISAI/CIRIS-Covenant.github.io/commit/5ac7def) |
@@ -60,8 +63,8 @@ The CIRIS Covenant is the predecessor document; the **CIRIS Accord** is a sister
 | [H3ERE](docs/h3ere.md) (Hyper3 Engine for Recursive Ethics / Hyper-Cubed Ethical Recursive Engine) | 2025-05-06 | [`CIRIS-Covenant.github.io@4f4715e`](https://github.com/CIRISAI/CIRIS-Covenant.github.io/commit/4f4715e) |
 | [Coherence Ratchet](docs/coherence-ratchet.md) | 2025-10-31 | [`CIRISAgent@5e90974fb`](https://github.com/CIRISAI/CIRISAgent/commit/5e90974fb) |
 | [RATCHET (reference architecture)](docs/ratchet.md) | 2026-01-03 | [`CIRISAI/RATCHET` repo creation](https://github.com/CIRISAI/RATCHET) |
-| [CIRIS Federation](docs/federation.md) | (verifying) | (see file) |
-| [Alignment Manifold](docs/alignment-manifold.md) | (verifying) | (see file) |
+| [CIRIS Federation](docs/federation.md) | 2026-01-02 | [`ciris-website@527d0d0`](https://github.com/CIRISAI/ciris-website/commit/527d0d0) |
+| [Alignment Manifold](docs/alignment-manifold.md) | draft — public publication pending | (see file) |
 
 ## Citation
 

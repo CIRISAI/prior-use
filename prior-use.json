@@ -18,6 +18,9 @@
     {
       "term": "CIRIS Covenant",
       "category": "document",
+      "status": "renamed",
+      "renamed_to": "CIRIS Accord",
+      "renamed_on": "2026-02-18",
       "earliest_known_public_use": "2025-04-21",
       "document_stated_issue_date": "2025-04-16",
       "earliest_source": {
@@ -26,35 +29,43 @@
         "commit": "5ac7def",
         "url": "https://github.com/CIRISAI/CIRIS-Covenant.github.io/commit/5ac7def"
       },
-      "scope_claimed": "compound 'CIRIS Covenant' as the title of the named document",
-      "scope_note": "'Covenant' is a general English word. CIRIS holds priority only on 'CIRIS Covenant' as the title of the named document.",
+      "scope_claimed": "compound 'CIRIS Covenant' as the historical title of the named document; document content lineage continuous through the rename",
+      "scope_note": "'Covenant' is a general English word. CIRIS holds priority on 'CIRIS Covenant' as the historical title (2025-04-21 through 2026-02-18) and on the document content it canonicalized, which continues without break as 'CIRIS Accord' from 2026-02-18.",
       "doc": "docs/covenant.md"
     },
     {
       "term": "CIRIS Accord",
       "category": "document",
-      "earliest_known_public_use": "2025-04-21",
-      "earliest_source": {
+      "relationship": "Current name of the CIRIS normative document. Renamed from 'CIRIS Covenant' on 2026-02-18; document content lineage continuous from 2025-04-21.",
+      "content_lineage_earliest": "2025-04-21",
+      "content_lineage_source": {
         "type": "git-commit",
-        "repo": "CIRISAI/CIRISAgent",
-        "commit": "9ff886a3f",
-        "url": "https://github.com/CIRISAI/CIRISAgent/commit/9ff886a3f",
-        "note": "Initial commit; Accord text included as sister document to the Covenant"
+        "repo": "CIRISAI/CIRIS-Covenant.github.io",
+        "commit": "5ac7def",
+        "url": "https://github.com/CIRISAI/CIRIS-Covenant.github.io/commit/5ac7def"
+      },
+      "named_compound_earliest": "2026-02-18",
+      "named_compound_source": {
+        "type": "git-commit",
+        "repo": "CIRISAI/ciris-website",
+        "commit": "b925457",
+        "url": "https://github.com/CIRISAI/ciris-website/commit/b925457",
+        "note": "refactor: Rename covenant to accord across codebase"
       },
       "subsequent_uses": [
         {
-          "date": "2025-04-28",
-          "source": "https://github.com/CIRISAI/legal",
-          "note": "Dedicated legal repository created"
+          "date": "2026-02-18",
+          "source": "https://github.com/CIRISAI/CIRISAgent/commit/daad5f08c",
+          "note": "Coordinated CIRISAgent rename: covenant→accord across codebase"
         },
         {
-          "date": "2025-09-24",
-          "source": "https://doi.org/10.5281/zenodo.17195221",
-          "note": "First Zenodo deposit referencing the Accord"
+          "date": "2026-03-01",
+          "source": "https://github.com/CIRISAI/CIRISAgent/commit/65082a131",
+          "note": "License/name harmonization: rename Covenant → Accord, Apache → AGPL throughout"
         }
       ],
-      "scope_claimed": "compound 'CIRIS Accord' as the title of the named document",
-      "scope_note": "'Accord' is a general English word. CIRIS holds priority only on 'CIRIS Accord' as a document title.",
+      "scope_claimed": "compound 'CIRIS Accord' as the current title of the named document, with document content lineage continuous from 'CIRIS Covenant' (2025-04-21)",
+      "scope_note": "'Accord' is a general English word. CIRIS holds priority on (a) the document content from 2025-04-21 via the Covenant lineage, and (b) the named compound 'CIRIS Accord' from 2026-02-18.",
       "doc": "docs/accord.md"
     },
     {
@@ -233,19 +244,42 @@
     {
       "term": "CIRIS Federation",
       "category": "system",
-      "earliest_known_public_use": null,
-      "earliest_source_todo": "Verify earliest commit/document referencing 'federation' in a CIRIS-specific architectural sense across CIRISAgent, CIRISNode, CIRISRegistry; cross-check with Wayback ciris.ai/federation.",
-      "scope_claimed": "compound 'CIRIS Federation'",
-      "scope_note": "'Federation' is a common English and computer-science word. CIRIS holds priority only on 'CIRIS Federation' as the named architecture.",
+      "earliest_known_public_use": "2026-01-02",
+      "earliest_source": {
+        "type": "git-commit",
+        "repo": "CIRISAI/ciris-website",
+        "commit": "527d0d0",
+        "url": "https://github.com/CIRISAI/ciris-website/commit/527d0d0",
+        "note": "Add Section IX (Book IX): Mathematics of Coherence — Federated Ratchet"
+      },
+      "subsequent_uses": [
+        {
+          "date": "2026-01-11",
+          "source": "https://doi.org/10.5281/zenodo.18217688",
+          "note": "Coherence Collapse Analysis — formal mathematics of the federated constraint architecture"
+        },
+        {
+          "date": "2026-01-26",
+          "source": "https://github.com/CIRISAI/CIRISRegistry",
+          "note": "CIRISRegistry repository created (cryptographic verification for federation participants)"
+        },
+        {
+          "date": "2026-04-27",
+          "source": "https://github.com/CIRISAI/CIRISAgent/commit/dbc90cd8a",
+          "note": "FSD for Proof of Benefit federation primitive"
+        }
+      ],
+      "scope_claimed": "compound 'CIRIS Federation' and the named 'Federated Ratchet' mechanism",
+      "scope_note": "'Federation' is a common English and computer-science word. CIRIS holds priority on the compound 'CIRIS Federation' and on 'Federated Ratchet' as the named CIRIS mechanism formalized in Book IX of the Accord.",
       "doc": "docs/federation.md"
     },
     {
       "term": "Alignment Manifold",
       "category": "concept",
+      "status": "draft — public publication pending",
       "earliest_known_public_use": null,
-      "earliest_source_todo": "Verify earliest commit/document introducing the 'Alignment Manifold' compound. Likely in CIRISAgent docs or Coherence Collapse Analysis paper.",
-      "scope_claimed": "compound 'Alignment Manifold'",
-      "scope_note": "'Manifold' is a general mathematical term with very wide prior use. CIRIS holds priority only on 'Alignment Manifold' as the named geometric construction within CIRIS.",
+      "scope_claimed": "compound 'Alignment Manifold' as the named geometric construction within CIRIS",
+      "scope_note": "'Manifold' is a general mathematical term with very wide prior use across topology, geometry, and machine learning. CIRIS holds priority on 'Alignment Manifold' as the named geometric construction within CIRIS, once published. The constraint-manifold mathematics anchoring this concept are public via the 2026-01-11 Coherence Collapse Analysis paper (10.5281/zenodo.18217688); a standalone canonical reference for the named compound is recommended.",
       "doc": "docs/alignment-manifold.md"
     }
   ],
