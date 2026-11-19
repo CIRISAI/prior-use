@@ -90,6 +90,8 @@
           "type": "string",
           "description": "Honest scope: which constituent words are general English / wide-prior-use, where CIRIS does and does not claim priority."
         },
+        "derived_from": { "type": "string", "description": "The CIRIS term this one extends or is derived from" },
+        "disclosure": { "type": "string", "description": "What is and is not publicly disclosed about the term" },
         "doc": { "type": "string", "description": "Path to the per-term Markdown file" }
       }
     },
@@ -99,7 +101,7 @@
       "properties": {
         "type": {
           "type": "string",
-          "enum": ["git-commit", "github-repo-creation", "zenodo-doi", "wayback", "website", "tagged-release"]
+          "enum": ["git-commit", "github-repo-creation", "zenodo-doi", "wayback", "website", "tagged-release", "this-record"]
         },
         "repo": { "type": "string" },
         "commit": { "type": "string" },

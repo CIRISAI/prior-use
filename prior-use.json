@@ -1,11 +1,11 @@
 {
   "$schema": "./_schema/prior-use.schema.json",
   "name": "CIRIS Terminology — Prior-Use Record",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "publisher": "CIRIS AI",
   "publisher_url": "https://ciris.ai",
   "license": "CC0-1.0",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-11-19",
   "earliest_public_artifact": {
     "name": "CIRIS Covenant",
     "document_issued": "2025-04-16",
@@ -281,6 +281,176 @@
       "scope_claimed": "compound 'Alignment Manifold' as the named geometric construction within CIRIS",
       "scope_note": "'Manifold' is a general mathematical term with very wide prior use across topology, geometry, and machine learning. CIRIS holds priority on 'Alignment Manifold' as the named geometric construction within CIRIS, once published. The constraint-manifold mathematics anchoring this concept are public via the 2026-01-11 Coherence Collapse Analysis paper (10.5281/zenodo.18217688); a standalone canonical reference for the named compound is recommended.",
       "doc": "docs/alignment-manifold.md"
+    },
+    {
+      "term": "CIRIS Constitution",
+      "short_form": "CC",
+      "category": "document",
+      "earliest_known_public_use": "2026-06-17",
+      "earliest_source": {
+        "type": "git-commit",
+        "repo": "CIRISAI/CIRISRegistry",
+        "commit": "fdc0614",
+        "url": "https://github.com/CIRISAI/CIRISRegistry/commit/fdc0614",
+        "note": "docs(CC): scaffold the CIRIS Constitution — unified CEG+Accord spine + Parts I–II"
+      },
+      "subsequent_uses": [
+        {
+          "date": "2026-06-22",
+          "source": "https://github.com/CIRISAI/ciris-website/commit/8d70c054",
+          "note": "Constitution on the public site"
+        },
+        {
+          "date": "2026-07-01",
+          "source": "https://github.com/CIRISAI/CIRISConstitution/commit/aecca0f",
+          "note": "CC 0.7 — dedicated home for the CIRIS Constitution"
+        },
+        {
+          "date": "2026-08-17",
+          "source": "https://github.com/CIRISAI/CIRISConstitution/releases/tag/v1.0-rc3",
+          "note": "Release 1.0-rc3"
+        }
+      ],
+      "scope_claimed": "compound 'CIRIS Constitution' as the named document joining the CIRIS Accord and the CIRIS Epistemic Grammar (CEG)",
+      "scope_note": "'Constitution' is a general English word. CIRIS claims priority on the compound 'CIRIS Constitution' from 2026-06-17; document content lineage runs back through the CIRIS Accord to 2025-04-21.",
+      "doc": "docs/constitution.md"
+    },
+    {
+      "term": "CIRISOntology",
+      "category": "system",
+      "earliest_known_public_use": "2026-07-22",
+      "earliest_source": {
+        "type": "git-commit",
+        "repo": "CIRISAI/CIRISOntology",
+        "commit": "f8f9011",
+        "url": "https://github.com/CIRISAI/CIRISOntology/commit/f8f9011",
+        "note": "Seed CIRISOntology: the stance, the epistemology, the axiomology"
+      },
+      "scope_claimed": "the named CIRIS research programme 'CIRISOntology' and its machine-checked stance",
+      "scope_note": "'Ontology', 'epistemology' and 'axiology' are long-established terms. CIRIS claims priority on the name 'CIRISOntology' and the specific stance, theorems and falsifiers it publishes.",
+      "doc": "docs/ontology.md"
+    },
+    {
+      "term": "CIRISHolon",
+      "category": "architectural-component",
+      "earliest_known_public_use": "2026-08-26",
+      "earliest_source": {
+        "type": "git-commit",
+        "repo": "CIRISAI/CIRISHolon",
+        "commit": "d3993c8",
+        "url": "https://github.com/CIRISAI/CIRISHolon/commit/d3993c8",
+        "note": "Seed CIRISHolon: the object as engineering contract, verified"
+      },
+      "scope_claimed": "the name 'CIRISHolon' / 'holon' for this object, and the specific combination: the closed view with a certified witness-pair failure, admission of a tier by carriage with a stated price, and the engine built on it with preregistered kills",
+      "scope_note": "The commuting square and closure are standard (Simon 1962; Simon and Ando 1961; Kemeny and Snell 1960; Park 1981; Milner; Cousot and Cousot 1977; Mori–Zwanzig; Wilson and Kadanoff; TICA/VAMP; Barnett and Seth; Rosas et al.; Shalizi and Crutchfield; Tishby et al. 1999). 'Holon' was coined by Koestler (1967), drawing on Simon. Six Birds (Tsiokos, 2026) is convergent independent work. CIRIS claims only the name and the specific combination.",
+      "doc": "docs/holon.md",
+      "object_lineage_earliest": "2026-08-19",
+      "object_lineage_sources": [
+        {
+          "date": "2026-08-19",
+          "source": "https://github.com/CIRISAI/CIRISOntology/commit/b770d72",
+          "note": "NonFactoring: the witness pair"
+        },
+        {
+          "date": "2026-08-24",
+          "source": "https://github.com/CIRISAI/CIRISOntology/commit/1c883fa",
+          "note": "def Closed (commuting square)"
+        },
+        {
+          "date": "2026-08-26",
+          "source": "https://github.com/CIRISAI/CIRISOntology/commit/9cf05b7",
+          "note": "v ∘ T = h ∘ v written literally; 45c53a8 adds nonfactoring_iff_not_closed"
+        }
+      ],
+      "subsequent_uses": [
+        {
+          "date": "2026-09-25",
+          "source": "https://github.com/CIRISAI/CIRISHolon/blob/main/OBJECT.md",
+          "note": "Correction: a tier is a closed view the level above carries; uncarried closed views are sectors"
+        },
+        {
+          "date": "2026-11-15",
+          "source": "https://github.com/CIRISAI/CIRISHolon/blob/main/OBJECT.md",
+          "note": "Correction: the selector is the consumer of the view"
+        }
+      ]
+    },
+    {
+      "term": "CIRIS reality compiler",
+      "category": "system",
+      "earliest_known_public_use": "2026-08-26",
+      "earliest_source": {
+        "type": "git-commit",
+        "repo": "CIRISAI/CIRISHolon",
+        "commit": "d3993c8",
+        "url": "https://github.com/CIRISAI/CIRISHolon/commit/d3993c8",
+        "note": "The application: a decentralized physics and graphics engine in which every level of detail is a certified view of the level below"
+      },
+      "subsequent_uses": [
+        {
+          "date": "2026-11-19",
+          "source": "https://github.com/CIRISAI/prior-use/blob/main/docs/reality-compiler.md",
+          "note": "First public use of the name 'reality compiler'"
+        }
+      ],
+      "scope_claimed": "the application of the CIRIS holon as a reality compiler: a physical model carried tier by tier, each tier certified against the tier below for what the level above reads, within a stated budget, with refusal by name where no certificate exists",
+      "scope_note": "Certification is relative to a derived model, not to nature. Compiler correctness as a commuting diagram is classical (McCarthy and Painter 1967; Morris 1973), as are bisimulation, abstract interpretation and lumpability. CIRIS claims nothing on the bare phrase or the square; it claims the application from 2026-08-26 and the compound 'CIRIS reality compiler' from this record.",
+      "doc": "docs/reality-compiler.md"
+    },
+    {
+      "term": "CIRIS Kernel",
+      "short_form": "CIRISKernel",
+      "category": "algorithm",
+      "earliest_known_public_use": "2026-11-12",
+      "earliest_source": {
+        "type": "git-commit",
+        "repo": "CIRISAI/CIRISConstitution",
+        "commit": "b9a3fe3",
+        "url": "https://github.com/CIRISAI/CIRISConstitution/commit/b9a3fe3",
+        "note": "The kernel runs: one answer in every arrival order, and two versions of one roster head wait"
+      },
+      "subsequent_uses": [
+        {
+          "date": "2026-11-13",
+          "source": "https://github.com/CIRISAI/CIRISConstitution/commit/0775c64",
+          "note": "Final by form, final by acknowledgement, provisional; checkpoint and purge"
+        },
+        {
+          "date": "2026-11-13",
+          "source": "https://github.com/CIRISAI/CIRISKernel/commit/37476f4",
+          "note": "CIRISAI/CIRISKernel created as an extract of Constitution 1.0-rc19"
+        },
+        {
+          "date": "2026-11-15",
+          "source": "https://github.com/CIRISAI/CIRISKernel/releases/tag/kernel-v0.1.0",
+          "note": "Release kernel-v0.1.0"
+        },
+        {
+          "date": "2026-11-16",
+          "source": "https://github.com/CIRISAI/CIRISKernel/releases/tag/kernel-v0.2.0",
+          "note": "Release kernel-v0.2.0"
+        }
+      ],
+      "scope_claimed": "the name 'CIRIS Kernel' / 'CIRISKernel'; a decentralized network form giving finality over monotonic and non-monotonic operations without a coordinator; and the specific function meeting all four constraints of operator-free self-governance together, with its proofs",
+      "scope_note": "By the kernel's own account none of the pieces is new (Gifford 1979; Malkhi and Reiter 1998; Guerraoui et al. 2019; Hellerstein and Alvaro 2020), and 'kernel' has wide prior use. CIRIS claims the name and the combination, and the rules it forces.",
+      "doc": "docs/kernel.md"
+    },
+    {
+      "term": "CIRISISA",
+      "expansion": "CIRIS Instruction Set Architecture",
+      "category": "architectural-component",
+      "earliest_known_public_use": null,
+      "earliest_source": {
+        "type": "this-record",
+        "repo": "CIRISAI/prior-use",
+        "url": "https://github.com/CIRISAI/prior-use",
+        "note": "First public naming is the commit adding this entry to the prior-use record."
+      },
+      "derived_from": "CIRIS Kernel",
+      "disclosure": "Name and nature only. The specification will be published together with the governance and safety mechanisms it depends on.",
+      "scope_claimed": "the name 'CIRISISA' / 'CIRIS Instruction Set Architecture' and the extension of the CIRIS Kernel's coordination primitives from governance to computation, giving self-organizing software",
+      "scope_note": "Partial-order execution has long prior art (dataflow machines, Dennis and Misunas 1975; actors, Hewitt 1973; task-graph runtimes), and 'instruction set architecture' is a standard term. CIRIS claims the name and the use of the CIRIS Kernel as the substrate governing both computation and the authority to perform it.",
+      "doc": "docs/isa.md"
     }
   ],
   "canonical_publications": [
@@ -320,6 +490,10 @@
     { "name": "RATCHET", "created": "2026-01-03", "url": "https://github.com/CIRISAI/RATCHET" },
     { "name": "CIRISRegistry", "created": "2026-01-26", "url": "https://github.com/CIRISAI/CIRISRegistry" },
     { "name": "CIRISVerify", "created": "2026-01-27", "url": "https://github.com/CIRISAI/CIRISVerify" },
-    { "name": "CIRISPersist", "created": "2026-05-01", "url": "https://github.com/CIRISAI/CIRISPersist" }
+    { "name": "CIRISPersist", "created": "2026-05-01", "url": "https://github.com/CIRISAI/CIRISPersist" },
+    { "name": "CIRISConstitution", "created": "2026-07-01", "url": "https://github.com/CIRISAI/CIRISConstitution" },
+    { "name": "CIRISOntology", "created": "2026-07-22", "url": "https://github.com/CIRISAI/CIRISOntology" },
+    { "name": "CIRISHolon", "created": "2026-08-27", "url": "https://github.com/CIRISAI/CIRISHolon" },
+    { "name": "CIRISKernel", "created": "2026-11-14", "url": "https://github.com/CIRISAI/CIRISKernel" }
   ]
 }

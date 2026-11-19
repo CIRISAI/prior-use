@@ -14,9 +14,13 @@
   "keywords": [
     "CIRIS", "CIRIS Covenant", "CIRIS Accord", "Coherence Ratchet",
     "Wisdom-Based Deferral", "PDMA", "H3ERE", "Wise Authority",
-    "Stewardship Tier", "Adaptive Coherence", "alignment", "ethics", "AI safety"
+    "Stewardship Tier", "Adaptive Coherence", "CIRIS Constitution", "CIRISOntology",
+    "CIRISHolon", "holon", "reality compiler", "CIRIS Kernel", "CIRISKernel",
+    "CIRISISA", "CIRIS Instruction Set Architecture", "self-organizing software",
+    "alignment", "ethics", "AI safety"
   ],
   "datePublished": "2026-05-06",
+  "dateModified": "2026-11-19",
   "isAccessibleForFree": true,
   "creativeWorkStatus": "Published"
 }
@@ -65,6 +69,21 @@ On **2026-02-18** the document was renamed from *CIRIS Covenant* to **CIRIS Acco
 | [RATCHET (reference architecture)](docs/ratchet.md) | 2026-01-03 | [`CIRISAI/RATCHET` repo creation](https://github.com/CIRISAI/RATCHET) |
 | [CIRIS Federation](docs/federation.md) | 2026-01-02 | [`ciris-website@527d0d0`](https://github.com/CIRISAI/ciris-website/commit/527d0d0) |
 | [Alignment Manifold](docs/alignment-manifold.md) | draft — public publication pending | (see file) |
+| [CIRIS Constitution (CC)](docs/constitution.md) | 2026-06-17 | [`CIRISRegistry@fdc0614`](https://github.com/CIRISAI/CIRISRegistry/commit/fdc0614) |
+| [CIRISOntology](docs/ontology.md) | 2026-07-22 | [`CIRISOntology@f8f9011`](https://github.com/CIRISAI/CIRISOntology/commit/f8f9011) |
+| [CIRISHolon: the holon as certified view](docs/holon.md) | name 2026-08-26; object from 2026-08-19 ([`CIRISOntology@b770d72`](https://github.com/CIRISAI/CIRISOntology/commit/b770d72)) | [`CIRISHolon@d3993c8`](https://github.com/CIRISAI/CIRISHolon/commit/d3993c8) |
+| [CIRIS reality compiler](docs/reality-compiler.md) | application 2026-08-26; name from this record | [`CIRISHolon@d3993c8`](https://github.com/CIRISAI/CIRISHolon/commit/d3993c8) |
+| [CIRIS Kernel (CIRISKernel)](docs/kernel.md) | 2026-11-12 | [`CIRISConstitution@b9a3fe3`](https://github.com/CIRISAI/CIRISConstitution/commit/b9a3fe3) |
+| [CIRISISA: CIRIS Instruction Set Architecture](docs/isa.md) | this record (name and nature only) | derived from the CIRIS Kernel |
+
+## Foundations, 2026
+
+Four later entries are foundational to CIRIS:
+
+- The **holon** ([CIRISHolon](docs/holon.md)) is one recursive object, a whole and a part at once. Its tiers are closed views of the level below that the level above carries, and any failure is certified by a witness pair.
+- Applied to a physical model, it is a **[reality compiler](docs/reality-compiler.md)**: each tier is certified against the tier below for what the level above reads, within a stated budget, and the compiler refuses by name where no certificate exists.
+- The **[CIRIS Kernel](docs/kernel.md)** is coordination without a coordinator, a new form of decentralized network that gives finality over both monotonic and non-monotonic operations. It is one function, with its proofs, by which a group talks, shares and governs itself with nobody in the middle. Self-organizing information on this CALM basis appears to have biological and physical implications too, which CIRIS is investigating as a hypothesis.
+- **[CIRISISA](docs/isa.md)**, the CIRIS Instruction Set Architecture, extends the Kernel's primitives from governance to computation. Software built on it organizes itself: who works on what, in what order, and what counts as done are derived from signed causal facts, not assigned by a scheduler. This record gives its name and nature only. The specification will be published together with the governance and safety mechanisms it depends on.
 
 ## Citation
 
