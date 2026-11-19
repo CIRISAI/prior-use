@@ -25,6 +25,7 @@ This entry records the name and nature of CIRISISA and its place in the CIRIS li
 ## Earliest known public use
 
 - **This record**: the commit adding this file to [`CIRISAI/prior-use`](https://github.com/CIRISAI/prior-use) is the first public naming.
+- **Public precursor**: [CEWPOS](cewpos.md), public from 2026-06-27. It described an operating system built as an evaluator over signed records, not a scheduler of processes, with authority separated from execution.
 - **Derived from**: the [CIRIS Kernel](kernel.md), public from 2026-11-12.
 
 ## Scope of priority claim

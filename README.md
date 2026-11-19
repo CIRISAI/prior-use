@@ -16,7 +16,8 @@
     "Wisdom-Based Deferral", "PDMA", "H3ERE", "Wise Authority",
     "Stewardship Tier", "Adaptive Coherence", "CIRIS Constitution", "CIRISOntology",
     "CIRISHolon", "holon", "reality compiler", "CIRIS Kernel", "CIRISKernel",
-    "CIRISISA", "CIRIS Instruction Set Architecture", "self-organizing software",
+    "CIRISISA", "CIRIS Instruction Set Architecture", "CEWPOS",
+    "Attestation Calculus", "holon-draw", "self-organizing software",
     "alignment", "ethics", "AI safety"
   ],
   "datePublished": "2026-05-06",
@@ -70,11 +71,13 @@ On **2026-02-18** the document was renamed from *CIRIS Covenant* to **CIRIS Acco
 | [CIRIS Federation](docs/federation.md) | 2026-01-02 | [`ciris-website@527d0d0`](https://github.com/CIRISAI/ciris-website/commit/527d0d0) |
 | [Alignment Manifold](docs/alignment-manifold.md) | draft — public publication pending | (see file) |
 | [CIRIS Constitution (CC)](docs/constitution.md) | 2026-06-17 | [`CIRISRegistry@fdc0614`](https://github.com/CIRISAI/CIRISRegistry/commit/fdc0614) |
+| [CEWPOS and the Attestation Calculus](docs/cewpos.md) | 2026-06-27 | [`CEWPOS@7778729`](https://github.com/CIRISAI/CEWPOS/commit/7778729) |
 | [CIRISOntology](docs/ontology.md) | 2026-07-22 | [`CIRISOntology@f8f9011`](https://github.com/CIRISAI/CIRISOntology/commit/f8f9011) |
 | [CIRISHolon: the holon as certified view](docs/holon.md) | name 2026-08-26; object from 2026-08-19 ([`CIRISOntology@b770d72`](https://github.com/CIRISAI/CIRISOntology/commit/b770d72)) | [`CIRISHolon@d3993c8`](https://github.com/CIRISAI/CIRISHolon/commit/d3993c8) |
 | [CIRIS reality compiler](docs/reality-compiler.md) | application 2026-08-26; name from this record | [`CIRISHolon@d3993c8`](https://github.com/CIRISAI/CIRISHolon/commit/d3993c8) |
+| [holon-draw](docs/holon-draw.md) | 2026-11-15 | [`CIRISHolon@8e56ace`](https://github.com/CIRISAI/CIRISHolon/commit/8e56ace) |
 | [CIRIS Kernel (CIRISKernel)](docs/kernel.md) | 2026-11-12 | [`CIRISConstitution@b9a3fe3`](https://github.com/CIRISAI/CIRISConstitution/commit/b9a3fe3) |
-| [CIRISISA: CIRIS Instruction Set Architecture](docs/isa.md) | this record (name and nature only) | derived from the CIRIS Kernel |
+| [CIRISISA: CIRIS Instruction Set Architecture](docs/isa.md) | this record (name and nature only) | derived from the CIRIS Kernel; public precursor CEWPOS (2026-06-27) |
 
 ## Foundations, 2026
 

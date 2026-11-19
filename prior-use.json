@@ -316,6 +316,34 @@
       "doc": "docs/constitution.md"
     },
     {
+      "term": "CEWPOS",
+      "expansion": "CIRIS Epistemic Web Platform OS",
+      "category": "system",
+      "earliest_known_public_use": "2026-06-27",
+      "earliest_source": {
+        "type": "git-commit",
+        "repo": "CIRISAI/CEWPOS",
+        "commit": "7778729",
+        "url": "https://github.com/CIRISAI/CEWPOS/commit/7778729",
+        "note": "Initial commit: Attestation Calculus, typed view-forms, zero-ambient-authority WASM view component"
+      },
+      "subsequent_uses": [
+        {
+          "date": "2026-06-27",
+          "source": "https://github.com/CIRISAI/CEWPOS/commit/a20b198",
+          "note": "WHY.md: an operating system built not as a scheduler of processes but as an evaluator over immutable, signed records; authority separated from execution"
+        },
+        {
+          "date": "2026-11-15",
+          "source": "https://github.com/CIRISAI/CIRISHolon/blob/main/INTERFACE.md",
+          "note": "holon-draw takes CEWPOS as its whole-screen host profile"
+        }
+      ],
+      "scope_claimed": "the names 'CEWPOS' and 'Attestation Calculus', and the specific architecture: an operating system as a deterministic evaluator over signed records, with authority separated from execution and rendering isolated from authority",
+      "scope_note": "Content addressing (Git), RDF, capability systems (Dennis and Van Horn 1966; Miller 2006), Lisp homoiconicity, event sourcing, the WebAssembly component model and views-as-pure-functions (Elm) are prior art. CIRIS claims the names and the specific combination.",
+      "doc": "docs/cewpos.md"
+    },
+    {
       "term": "CIRISOntology",
       "category": "system",
       "earliest_known_public_use": "2026-07-22",
@@ -398,6 +426,28 @@
       "doc": "docs/reality-compiler.md"
     },
     {
+      "term": "holon-draw",
+      "category": "architectural-component",
+      "earliest_known_public_use": "2026-11-15",
+      "earliest_source": {
+        "type": "git-commit",
+        "repo": "CIRISAI/CIRISHolon",
+        "commit": "8e56ace",
+        "url": "https://github.com/CIRISAI/CIRISHolon/commit/8e56ace",
+        "note": "holon-draw: a generic draw core with no dependency"
+      },
+      "subsequent_uses": [
+        {
+          "date": "2026-11-15",
+          "source": "https://github.com/CIRISAI/CIRISHolon/blob/main/INTERFACE.md",
+          "note": "Seam contract: a drawn scene is a view of a list; two host profiles (canvas in a client; whole screen, CEWPOS)"
+        }
+      ],
+      "scope_claimed": "the name 'holon-draw' and its rule that a drawn scene is a view of a list, applying the holon's closed-versus-carried distinction to the screen",
+      "scope_note": "Instanced rendering, GPU picking, model–view separation and UI-as-a-function-of-state (Elm, React) are standard. CIRIS claims the name and the rule that every pickable mark is a carried row of a consumer's list, with all else labelled decoration.",
+      "doc": "docs/holon-draw.md"
+    },
+    {
       "term": "CIRIS Kernel",
       "short_form": "CIRISKernel",
       "category": "algorithm",
@@ -450,7 +500,12 @@
       "disclosure": "Name and nature only. The specification will be published together with the governance and safety mechanisms it depends on.",
       "scope_claimed": "the name 'CIRISISA' / 'CIRIS Instruction Set Architecture' and the extension of the CIRIS Kernel's coordination primitives from governance to computation, giving self-organizing software",
       "scope_note": "Partial-order execution has long prior art (dataflow machines, Dennis and Misunas 1975; actors, Hewitt 1973; task-graph runtimes), and 'instruction set architecture' is a standard term. CIRIS claims the name and the use of the CIRIS Kernel as the substrate governing both computation and the authority to perform it.",
-      "doc": "docs/isa.md"
+      "doc": "docs/isa.md",
+      "public_precursor": {
+        "term": "CEWPOS",
+        "date": "2026-06-27",
+        "source": "https://github.com/CIRISAI/CEWPOS/commit/a20b198"
+      }
     }
   ],
   "canonical_publications": [
@@ -492,6 +547,7 @@
     { "name": "CIRISVerify", "created": "2026-01-27", "url": "https://github.com/CIRISAI/CIRISVerify" },
     { "name": "CIRISPersist", "created": "2026-05-01", "url": "https://github.com/CIRISAI/CIRISPersist" },
     { "name": "CIRISConstitution", "created": "2026-07-01", "url": "https://github.com/CIRISAI/CIRISConstitution" },
+    { "name": "CEWPOS", "created": "2026-06-28", "first_content_commit": "2026-06-27T20:36:59-05:00", "url": "https://github.com/CIRISAI/CEWPOS" },
     { "name": "CIRISOntology", "created": "2026-07-22", "url": "https://github.com/CIRISAI/CIRISOntology" },
     { "name": "CIRISHolon", "created": "2026-08-27", "url": "https://github.com/CIRISAI/CIRISHolon" },
     { "name": "CIRISKernel", "created": "2026-11-14", "url": "https://github.com/CIRISAI/CIRISKernel" }
