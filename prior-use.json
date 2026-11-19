@@ -714,22 +714,27 @@
       "doc": "docs/ietf-ceg.md"
     },
     {
-      "term": "CIRIS Web4",
+      "term": "CIRIS Web4 Constitutional Mesh",
       "category": "document",
       "earliest_known_public_use": "2026-11-17",
       "earliest_source": {
         "type": "website",
         "url": "https://datatracker.ietf.org/doc/draft-moore-scitt-ciris-ceg/",
-        "note": "Draft 0.4 attached to a review request on the scitt@ietf.org list; the list archive is authoritative"
+        "note": "Draft 0.4, then titled 'CIRIS Web4: A Constitutional Mesh for the Networked Age', attached to a review request on the scitt@ietf.org list; the list archive is authoritative"
       },
       "subsequent_uses": [
         {
           "date": "2026-11-19",
           "source": "https://github.com/CIRISAI/CIRISConstitution/tree/877ebe58b83671745a3294197cb1c08e94bed2ab/web4",
           "note": "Drafts 0.4 (byte-identical to the list attachment) and 0.5 committed"
+        },
+        {
+          "date": "2026-11-19",
+          "source": "https://github.com/CIRISAI/CIRISConstitution/commit/102d804",
+          "note": "Retitled CIRIS Web4 Constitutional Mesh; draft 0.4 keeps its original title"
         }
       ],
-      "scope_claimed": "the compound 'CIRIS Web4' as the name of the CIRIS white paper and of the constitutional mesh it describes",
+      "scope_claimed": "the compound 'CIRIS Web4' and the title 'CIRIS Web4 Constitutional Mesh', naming the CIRIS white paper and the constitutional governance of a decentralized mesh it describes",
       "scope_note": "'Web4'/'Web 4.0' have other uses (European Commission 2023; draft-reilly-web4 and draft-jacobs-web4-* IETF drafts, 2026), which CIRIS Web4 does not build on. CIRIS claims only the compound.",
       "doc": "docs/web4.md"
     }
