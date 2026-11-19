@@ -18,7 +18,8 @@
     "CIRISHolon", "holon", "reality compiler", "CIRIS Kernel", "CIRISKernel",
     "CIRISISA", "CIRIS Instruction Set Architecture", "CEWPOS",
     "Attestation Calculus", "holon-draw", "CIRIS Specification Document",
-    "CSD", "CIRISClient", "CIRISGrace", "self-organizing software",
+    "CSD", "CIRISClient", "CIRISGrace", "CIRIS Web4", "CIRISOssicle", "CIRISArray",
+    "CIRISDepot", "CIRISProxy", "IETF", "SCITT", "self-organizing software",
     "alignment", "ethics", "AI safety"
   ],
   "datePublished": "2026-05-06",
@@ -82,6 +83,12 @@ On **2026-02-18** the document was renamed from *CIRIS Covenant* to **CIRIS Acco
 | [CIRIS reality compiler](docs/reality-compiler.md) | application 2026-08-26; name from this record | [`CIRISHolon@d3993c8`](https://github.com/CIRISAI/CIRISHolon/commit/d3993c8) |
 | [holon-draw](docs/holon-draw.md) | 2026-11-15 | [`CIRISHolon@8e56ace`](https://github.com/CIRISAI/CIRISHolon/commit/8e56ace) |
 | [CIRIS Kernel (CIRISKernel)](docs/kernel.md) | 2026-11-12 | [`CIRISConstitution@b9a3fe3`](https://github.com/CIRISAI/CIRISConstitution/commit/b9a3fe3) |
+| [CIRISProxy](docs/proxy.md) | 2025-11-26 | [`CIRISProxy@7a000fe`](https://github.com/CIRISAI/CIRISProxy/commit/7a000fe) |
+| [CIRISOssicle](docs/ossicle.md) | 2026-01-10 | [`CIRISOssicle@6d232ad`](https://github.com/CIRISAI/CIRISOssicle/commit/6d232ad) |
+| [CIRISArray](docs/array.md) | 2026-01-10 | [`CIRISArray@f4ad779`](https://github.com/CIRISAI/CIRISArray/commit/f4ad779) |
+| [CIRISDepot](docs/depot.md) | 2026-08-13 | [`CIRISDepot@1f99381`](https://github.com/CIRISAI/CIRISDepot/commit/1f99381) |
+| [IETF draft-moore-scitt-ciris-ceg](docs/ietf-ceg.md) | 2026-10-23 | [IETF Datatracker, -00](https://datatracker.ietf.org/doc/draft-moore-scitt-ciris-ceg/00/) |
+| [CIRIS Web4 (white paper)](docs/web4.md) | 2026-11-17 | `scitt@ietf.org`; [`CIRISConstitution@877ebe5`](https://github.com/CIRISAI/CIRISConstitution/tree/877ebe58b83671745a3294197cb1c08e94bed2ab/web4) |
 | [CIRISISA: CIRIS Instruction Set Architecture](docs/isa.md) | this record (name and nature only) | derived from the CIRIS Kernel; public precursors CEWPOS (2026-06-27) and the specification-and-test language (2025-05-31) |
 
 ## Foundations, 2026

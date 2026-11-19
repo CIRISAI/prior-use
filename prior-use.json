@@ -620,6 +620,118 @@
           "source": "https://github.com/CIRISAI/CIRISAgent/commit/baa3f2484"
         }
       ]
+    },
+    {
+      "term": "CIRISOssicle",
+      "category": "system",
+      "earliest_known_public_use": "2026-01-10",
+      "earliest_source": {
+        "type": "git-commit",
+        "repo": "CIRISAI/CIRISOssicle",
+        "commit": "6d232ad",
+        "url": "https://github.com/CIRISAI/CIRISOssicle/commit/6d232ad",
+        "note": "Initial commit: CIRISOssicle GPU Tamper Detection"
+      },
+      "subsequent_uses": [
+        {
+          "date": "2026-01-11",
+          "source": "https://github.com/CIRISAI/CIRISOssicle/commit/167291c",
+          "note": "Claims validated with null hypothesis testing"
+        }
+      ],
+      "scope_claimed": "the name 'CIRISOssicle' and the ossicle sensor: a sub-kilobyte, software-only GPU workload detector built from coupled chaotic oscillators read as a timing strain gauge",
+      "scope_note": "Power and timing side channels, GPU counter monitoring, chaotic-oscillator sensors and timing-jitter RNGs are prior art. Claims are held at the repository's evidence levels (validated vs theorized). BSL 1.1, CIRIS L3C.",
+      "doc": "docs/ossicle.md"
+    },
+    {
+      "term": "CIRISArray",
+      "category": "system",
+      "earliest_known_public_use": "2026-01-10",
+      "earliest_source": {
+        "type": "git-commit",
+        "repo": "CIRISAI/CIRISArray",
+        "commit": "f4ad779",
+        "url": "https://github.com/CIRISAI/CIRISArray/commit/f4ad779",
+        "note": "Initial release of CIRISArray"
+      },
+      "scope_claimed": "the name 'CIRISArray' and the extension of the ossicle sensor to massive arrays of coupled oscillators on GPUs",
+      "scope_note": "Sensor arrays, side channels and timing RNGs are established. Claims held at the repository's evidence levels. BSL 1.1, CIRIS L3C.",
+      "doc": "docs/array.md"
+    },
+    {
+      "term": "CIRISProxy",
+      "category": "architectural-component",
+      "earliest_known_public_use": "2025-11-26",
+      "earliest_source": {
+        "type": "git-commit",
+        "repo": "CIRISAI/CIRISProxy",
+        "commit": "7a000fe",
+        "url": "https://github.com/CIRISAI/CIRISProxy/commit/7a000fe",
+        "note": "CIRISProxy architecture"
+      },
+      "scope_claimed": "the name 'CIRISProxy' and its role as temporary, credit-gated, retention-free bridging infrastructure for CIRIS agents",
+      "scope_note": "LLM gateways and proxies are common; CIRIS claims only the name and stated design.",
+      "doc": "docs/proxy.md"
+    },
+    {
+      "term": "CIRISDepot",
+      "category": "architectural-component",
+      "earliest_known_public_use": "2026-08-13",
+      "earliest_source": {
+        "type": "git-commit",
+        "repo": "CIRISAI/CIRISDepot",
+        "commit": "1f99381",
+        "url": "https://github.com/CIRISAI/CIRISDepot/commit/1f99381",
+        "note": "CIRISDepot spec draft 0.2"
+      },
+      "scope_claimed": "the name 'CIRISDepot' and its design: a stateless, read-only HTTP shim that serves an artifact only if its signature chains to a baked trust root",
+      "scope_note": "Signed repositories (TUF, Sigstore), content-addressed mirrors and edge caches are prior art. CIRIS claims the name and the specific design.",
+      "doc": "docs/depot.md"
+    },
+    {
+      "term": "draft-moore-scitt-ciris-ceg",
+      "category": "protocol",
+      "earliest_known_public_use": "2026-10-23",
+      "earliest_source": {
+        "type": "website",
+        "url": "https://datatracker.ietf.org/doc/draft-moore-scitt-ciris-ceg/00/",
+        "note": "IETF Internet-Draft -00 posted on the Datatracker"
+      },
+      "subsequent_uses": [
+        {
+          "date": "2026-11-17",
+          "source": "https://datatracker.ietf.org/doc/draft-moore-scitt-ciris-ceg/01/",
+          "note": "-01 posted"
+        },
+        {
+          "date": "2026-11-17",
+          "source": "https://datatracker.ietf.org/doc/draft-moore-scitt-ciris-ceg/",
+          "note": "Review requested on scitt@ietf.org with the CIRIS Web4 white paper attached"
+        }
+      ],
+      "scope_claimed": "the CIRIS Epistemic Grammar as specified to the IETF: signed attestation rows of five types, composite post-quantum signatures, and named refusals, in relation to SCITT",
+      "scope_note": "COSE, CBOR, ML-DSA, Ed25519 and SCITT are IETF/NIST work. An individual submission, not a standard or working-group document.",
+      "doc": "docs/ietf-ceg.md"
+    },
+    {
+      "term": "CIRIS Web4",
+      "category": "document",
+      "earliest_known_public_use": "2026-11-17",
+      "earliest_source": {
+        "type": "website",
+        "url": "https://datatracker.ietf.org/doc/draft-moore-scitt-ciris-ceg/",
+        "note": "Draft 0.4 attached to a review request on the scitt@ietf.org list; the list archive is authoritative"
+      },
+      "subsequent_uses": [
+        {
+          "date": "2026-11-19",
+          "source": "https://github.com/CIRISAI/CIRISConstitution/tree/877ebe58b83671745a3294197cb1c08e94bed2ab/web4",
+          "note": "Drafts 0.4 (byte-identical to the list attachment) and 0.5 committed"
+        }
+      ],
+      "scope_claimed": "the compound 'CIRIS Web4' as the name of the CIRIS white paper and of the constitutional mesh it describes",
+      "scope_note": "'Web4'/'Web 4.0' have other uses (European Commission 2023; draft-reilly-web4 and draft-jacobs-web4-* IETF drafts, 2026), which CIRIS Web4 does not build on. CIRIS claims only the compound.",
+      "doc": "docs/web4.md"
     }
   ],
   "canonical_publications": [

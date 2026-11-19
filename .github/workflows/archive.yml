@@ -49,6 +49,12 @@ jobs:
             "https://raw.githubusercontent.com/CIRISAI/prior-use/main/docs/csd.md"
             "https://raw.githubusercontent.com/CIRISAI/prior-use/main/docs/grace.md"
             "https://raw.githubusercontent.com/CIRISAI/prior-use/main/docs/spec-language.md"
+            "https://raw.githubusercontent.com/CIRISAI/prior-use/main/docs/array.md"
+            "https://raw.githubusercontent.com/CIRISAI/prior-use/main/docs/depot.md"
+            "https://raw.githubusercontent.com/CIRISAI/prior-use/main/docs/ietf-ceg.md"
+            "https://raw.githubusercontent.com/CIRISAI/prior-use/main/docs/ossicle.md"
+            "https://raw.githubusercontent.com/CIRISAI/prior-use/main/docs/proxy.md"
+            "https://raw.githubusercontent.com/CIRISAI/prior-use/main/docs/web4.md"
             "https://raw.githubusercontent.com/CIRISAI/prior-use/main/docs/wise-authority.md"
           )
           for url in "${urls[@]}"; do
