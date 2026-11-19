@@ -45,6 +45,10 @@ jobs:
             "https://raw.githubusercontent.com/CIRISAI/prior-use/main/docs/reality-compiler.md"
             "https://raw.githubusercontent.com/CIRISAI/prior-use/main/docs/stewardship-tier.md"
             "https://raw.githubusercontent.com/CIRISAI/prior-use/main/docs/wbd.md"
+            "https://raw.githubusercontent.com/CIRISAI/prior-use/main/docs/client.md"
+            "https://raw.githubusercontent.com/CIRISAI/prior-use/main/docs/csd.md"
+            "https://raw.githubusercontent.com/CIRISAI/prior-use/main/docs/grace.md"
+            "https://raw.githubusercontent.com/CIRISAI/prior-use/main/docs/spec-language.md"
             "https://raw.githubusercontent.com/CIRISAI/prior-use/main/docs/wise-authority.md"
           )
           for url in "${urls[@]}"; do

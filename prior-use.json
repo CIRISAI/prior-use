@@ -316,6 +316,70 @@
       "doc": "docs/constitution.md"
     },
     {
+      "term": "CIRIS specification-and-test language",
+      "category": "concept",
+      "earliest_known_public_use": "2025-05-31",
+      "earliest_source": {
+        "type": "git-commit",
+        "repo": "CIRISAI/CIRISAgent",
+        "commit": "baa3f2484",
+        "url": "https://github.com/CIRISAI/CIRISAgent/commit/baa3f2484",
+        "note": "Mock LLM (earliest located)"
+      },
+      "subsequent_uses": [
+        {
+          "date": "2025-06-24",
+          "source": "https://github.com/CIRISAI/CIRISAgent/commit/50a4e1de4",
+          "note": "Adapter manifests (the first is the mock LLM's)"
+        },
+        {
+          "date": "2025-08-23",
+          "source": "https://github.com/CIRISAI/CIRISAgent/commit/30c3df512",
+          "note": "Modular QA runner"
+        },
+        {
+          "date": "2026-09-08",
+          "source": "https://github.com/CIRISAI/CIRISAgent/commit/e7a4ee7b7",
+          "note": "QA runner drives CSD flows"
+        },
+        {
+          "date": "2026-11-11",
+          "source": "https://github.com/CIRISAI/RATCHET/commit/acd225a",
+          "note": "kindscope: stake/misfit/diagnosis language"
+        },
+        {
+          "date": "2026-11-18",
+          "source": "https://github.com/CIRISAI/RATCHET/commit/361371a",
+          "note": "market4: H3ERE context flow measured (42,998 calls) and modelled in TLA+"
+        }
+      ],
+      "scope_claimed": "the CIRIS line in which declaring what a system should do and checking that it does are one text: mock LLM, adapter manifests, the QA runner, CSD flows, and the RATCHET modelling of H3ERE context",
+      "scope_note": "Test doubles, plugin manifests, BDD, executable specifications and TLA+ are established practice. CIRIS claims the specific line from QA description to modelling the agent's own reasoning stages.",
+      "doc": "docs/spec-language.md"
+    },
+    {
+      "term": "CIRISClient",
+      "category": "system",
+      "earliest_known_public_use": "2025-12-23",
+      "earliest_source": {
+        "type": "git-commit",
+        "repo": "CIRISAI/CIRISAgent",
+        "commit": "4c25b5af7",
+        "url": "https://github.com/CIRISAI/CIRISAgent/commit/4c25b5af7",
+        "note": "Kotlin Multiplatform mobile scaffold inside CIRISAgent"
+      },
+      "subsequent_uses": [
+        {
+          "date": "2026-08-16",
+          "source": "https://github.com/CIRISAI/CIRISClient/commit/a218a8c6",
+          "note": "CIRISClient repository; client vendored from CIRISAgent 2026-08-20"
+        }
+      ],
+      "scope_claimed": "the name 'CIRISClient' and its lineage as the CIRIS screen: one client across platforms whose surfaces are specified, and tested, by CIRIS Specification Documents",
+      "scope_note": "Kotlin Multiplatform and Compose are third-party technologies; cross-platform clients are common. CIRIS claims the name and the specific spec-as-test lineage.",
+      "doc": "docs/client.md"
+    },
+    {
       "term": "CEWPOS",
       "expansion": "CIRIS Epistemic Web Platform OS",
       "category": "system",
@@ -357,6 +421,21 @@
       "scope_claimed": "the named CIRIS research programme 'CIRISOntology' and its machine-checked stance",
       "scope_note": "'Ontology', 'epistemology' and 'axiology' are long-established terms. CIRIS claims priority on the name 'CIRISOntology' and the specific stance, theorems and falsifiers it publishes.",
       "doc": "docs/ontology.md"
+    },
+    {
+      "term": "CIRISGrace",
+      "category": "system",
+      "earliest_known_public_use": "2026-08-16",
+      "earliest_source": {
+        "type": "git-commit",
+        "repo": "CIRISAI/CIRISGrace",
+        "commit": "1fd7d9a",
+        "url": "https://github.com/CIRISAI/CIRISGrace/commit/1fd7d9a",
+        "note": "initial readiness gates, mission, and evidence registry"
+      },
+      "scope_claimed": "the name 'CIRISGrace' and its role: daily readiness gates for the whole CIRIS ecosystem, as an orchestration surface that cannot change what passing means",
+      "scope_note": "Release gates and CI are standard. CIRIS claims the name and the separation of reporting readiness from defining it.",
+      "doc": "docs/grace.md"
     },
     {
       "term": "CIRISHolon",
@@ -402,6 +481,34 @@
           "note": "Correction: the selector is the consumer of the view"
         }
       ]
+    },
+    {
+      "term": "CIRIS Specification Document",
+      "short_form": "CSD",
+      "category": "protocol",
+      "earliest_known_public_use": "2026-09-07",
+      "earliest_source": {
+        "type": "git-commit",
+        "repo": "CIRISAI/CIRISAgent",
+        "commit": "853a543d8",
+        "url": "https://github.com/CIRISAI/CIRISAgent/commit/853a543d8",
+        "note": "the CSD standard, and the first four CSDs"
+      },
+      "subsequent_uses": [
+        {
+          "date": "2026-09-08",
+          "source": "https://github.com/CIRISAI/CIRISClient/commit/4941f61d",
+          "note": "CSD-B: design the surface first"
+        },
+        {
+          "date": "2026-09-09",
+          "source": "https://github.com/CIRISAI/CIRISClient/commit/145f9934",
+          "note": "CSD/3: the DSL checks what the spec promises"
+        }
+      ],
+      "scope_claimed": "the name 'CIRIS Specification Document (CSD)' and the specific form: one document that is both a feature's specification and its executable test",
+      "scope_note": "Executable specifications, BDD (Gherkin), design by contract and literate programming are prior art. Some CIRIS documents expand CSD as 'Client Surface Definition'; the canonical expansion is CIRIS Specification Document.",
+      "doc": "docs/csd.md"
     },
     {
       "term": "CIRIS reality compiler",
@@ -501,11 +608,18 @@
       "scope_claimed": "the name 'CIRISISA' / 'CIRIS Instruction Set Architecture' and the extension of the CIRIS Kernel's coordination primitives from governance to computation, giving self-organizing software",
       "scope_note": "Partial-order execution has long prior art (dataflow machines, Dennis and Misunas 1975; actors, Hewitt 1973; task-graph runtimes), and 'instruction set architecture' is a standard term. CIRIS claims the name and the use of the CIRIS Kernel as the substrate governing both computation and the authority to perform it.",
       "doc": "docs/isa.md",
-      "public_precursor": {
-        "term": "CEWPOS",
-        "date": "2026-06-27",
-        "source": "https://github.com/CIRISAI/CEWPOS/commit/a20b198"
-      }
+      "public_precursor": [
+        {
+          "term": "CEWPOS",
+          "date": "2026-06-27",
+          "source": "https://github.com/CIRISAI/CEWPOS/commit/a20b198"
+        },
+        {
+          "term": "CIRIS specification-and-test language",
+          "date": "2025-05-31",
+          "source": "https://github.com/CIRISAI/CIRISAgent/commit/baa3f2484"
+        }
+      ]
     }
   ],
   "canonical_publications": [
@@ -548,6 +662,8 @@
     { "name": "CIRISPersist", "created": "2026-05-01", "url": "https://github.com/CIRISAI/CIRISPersist" },
     { "name": "CIRISConstitution", "created": "2026-07-01", "url": "https://github.com/CIRISAI/CIRISConstitution" },
     { "name": "CEWPOS", "created": "2026-06-28", "first_content_commit": "2026-06-27T20:36:59-05:00", "url": "https://github.com/CIRISAI/CEWPOS" },
+    { "name": "CIRISClient", "created": "2026-08-16", "url": "https://github.com/CIRISAI/CIRISClient" },
+    { "name": "CIRISGrace", "created": "2026-08-16", "url": "https://github.com/CIRISAI/CIRISGrace" },
     { "name": "CIRISOntology", "created": "2026-07-22", "url": "https://github.com/CIRISAI/CIRISOntology" },
     { "name": "CIRISHolon", "created": "2026-08-27", "url": "https://github.com/CIRISAI/CIRISHolon" },
     { "name": "CIRISKernel", "created": "2026-11-14", "url": "https://github.com/CIRISAI/CIRISKernel" }

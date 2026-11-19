@@ -26,6 +26,7 @@ This entry records the name and nature of CIRISISA and its place in the CIRIS li
 
 - **This record**: the commit adding this file to [`CIRISAI/prior-use`](https://github.com/CIRISAI/prior-use) is the first public naming.
 - **Public precursor**: [CEWPOS](cewpos.md), public from 2026-06-27. It described an operating system built as an evaluator over signed records, not a scheduler of processes, with authority separated from execution.
+- **Second public precursor**: the [CIRIS specification-and-test language](spec-language.md), public from 2025-05-31. It runs from the mock LLM through adapter manifests, the QA runner and CSD flows to RATCHET's modelling of H3ERE, and is the line CIRISISA's language descends from.
 - **Derived from**: the [CIRIS Kernel](kernel.md), public from 2026-11-12.
 
 ## Scope of priority claim
